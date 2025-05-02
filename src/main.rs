@@ -1,7 +1,6 @@
 use std::collections::HashMap;
 use std::fs::File;
-use std::io::{self, Read, Write};
-use std::path::Path;
+use std::io::{self, Write};
 
 struct Produit {
     nom: String,
